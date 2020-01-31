@@ -1,0 +1,46 @@
+{
+  "name": "fosdem-search",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint .",
+    "build:styles": "postcss src/index.css -o public/tailwind.css",
+    "prebuild": "yarn build:styles",
+    "prestart": "yarn build:styles"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.26",
+    "@fortawesome/free-solid-svg-icons": "5.12.0",
+    "@fortawesome/react-fontawesome": "0.1.8",
+    "algoliasearch": "3.35.1",
+    "date-fns": "2.9.0",
+    "qs": "6.9.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-instantsearch-dom": "6.2.0",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "eslint": "5.6.0",
+    "eslint-config-algolia": "13.2.3",
+    "eslint-config-prettier": "3.6.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "postcss-cli": "^7.1.0",
+    "prettier": "1.19.1",
+    "prop-types": "15.7.2",
+    "tailwindcss": "^1.1.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "description": "Search the FOSDEM 2020 conf"
+}

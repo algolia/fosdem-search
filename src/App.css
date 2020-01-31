@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0 1rem;
+  background: rgb(187, 0, 152);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-subtitle::before {
+  content: ' ▸ ';
+  padding: 0 0.5rem;
+}
+
+.filters {
+  top: 1rem;
+}
+
+.text-fosdem {
+  color: #bb0098;
+}
+
+article a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+/**
+ * Theme specifics
+ */
+
+.ais-SearchBox-input {
+  max-width: 100%;
+}
+
+.ais-Pagination--noRefinement {
+  display: none;
+}
+
+.ais-GeoSearch-input,
+.ais-RefinementList-checkbox {
+  min-width: 1rem;
+}
+
+.ais-ToggleRefinement-checkbox:checked {
+  background: #bb0098;
+}
+
+.ais-RefinementList-item--selected .ais-RefinementList-checkbox,
+.ais-GeoSearch-input:checked {
+  color: #bb0098;
+}
+
+.ais-HierarchicalMenu-showMore:focus,
+.ais-Menu-showMore:focus,
+.ais-RefinementList-showMore:focus,
+.ais-ClearRefinements-button:focus,
+.ais-InfiniteHits-loadMore:focus,
+.ais-RangeInput-submit:focus,
+.ais-InfiniteHits-loadPrevious:focus,
+.ais-GeoSearch-redo:focus,
+.ais-GeoSearch-reset:focus,
+.ais-VoiceSearch-button:focus {
+  border-color: #bb0098;
+  box-shadow: #bb0098 0 0 0 1px, rgba(35, 38, 59, 0.05) 0 2px 0 1px;
+}
+
+.ais-SearchBox-input:focus {
+  border-color: #bb0098;
+}
+
+.ais-SearchBox-input:focus {
+  border-color: #bb0098;
+}
+
+.ais-SearchBox-reset {
+  height: 20px;
+}
+
+.ais-Hits h1 {
+  line-height: 1.2;
+}
+
+.ais-Hits h1 {
+  line-height: 1.2;
+}
